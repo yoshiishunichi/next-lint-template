@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint --ignore-path .gitignore",
     "lint:fix": "next lint --ignore-path .gitignore --fix",
-    "lint:style": "stylelint --ignore-path .gitignore './**/*.{css,scss,sass}'",
-    "lint:style:fix": "stylelint --ignore-path .gitignore --fix './**/*.{css,scss,sass}'",
+    "lint:style": "stylelint --ignore-path .gitignore './**/*.{css,scss}'",
+    "lint:style:fix": "stylelint --ignore-path .gitignore --fix './**/*.{css,scss}'",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'",
     "prepare": "husky install"
   },
