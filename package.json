@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint --ignore-path .gitignore",
+    "lint:fix": "next lint --ignore-path .gitignore --fix",
+    "lint:style": "stylelint --ignore-path .gitignore './**/*.{css,scss,sass}'",
+    "lint:style:fix": "stylelint --ignore-path .gitignore --fix './**/*.{css,scss,sass}'",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
   "dependencies": {
     "next": "12.1.5",
